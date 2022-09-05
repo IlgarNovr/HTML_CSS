@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+header {
+    height: 80vh;
+    background: url('../img/bg1.jpg') center/cover;
+}
+
+.backcolor{background: linear-gradient(to right, #000924, #00061e, #00142f, #002746);}
+
+header div{text-align: center;}
+header img{ padding: 10px 0 100px 0;}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+p{
+    font:  1em Lato, sans-serif;
+    color: #fff;
+    padding-bottom: 40px;
+}
+h1{
+    font: bold 3em/1.5 Lato, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+h1 span{color: #00baff;}
+
+h2{
+    padding-top: 50px;
+    font: bold 2.5em/1.5 Lato, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+h3{
+    padding: 20px 0;
+    font: bold 1.5em Lato, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+h5{
+    padding: 20px 0;
+    font: bold 1.2em Lato, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+button{
+    width: 220px;
+    height: 50px;
+    font: bold 1.2em Lato, sans-serif;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    display: inline-block;
+}
+.createbtn{
+    background: #f53241;
+    border: none;
+}
+.avatarbtn{
+    background: none;
+    border: 3px solid #fff;
+}
+.joinbtn{
+    width: 150px;
+    height: 30px;
+    font: bold 1em Lato, sans-serif;
+    border: none;
+    background: #ab00e7;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.page1{ text-align: center;}
+.page1 iframe{
+    width: 70%;
+    height: 400px;
+    padding: 0 30px;
+}
+.page2{background: url('../img/bg2.jpg') center/cover;}
+.page3{background: url('../img/bg3.gif') center/cover;}
+.page4{background: url('../img/bg4.jpg') center/cover;}
+.page5{background: url('../img/bg5.jpg') center/cover;}
+.footbg{
+    background: url('../img/footbg.jpg') center/cover;
+    margin-bottom: 20px;
+}
+
+footer p{
+    font:  .7em Lato, sans-serif;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+#copyright{
+    background: #14181d;
+    text-align: center;
+    font:  1em Lato, sans-serif;
+    color: #fff;
+    padding: 20px;
+}
+.padtop{padding-top: 50px;}
+.pad100{padding: 100px 200px;}
+.art25{max-width: 25%;}
+.art33{max-width: 33%;}
+.art40{max-width: 40%;}
+.art50{max-width: 50%;}
+.center{margin: auto;}
+.txtcenter{text-align: center;}
+.fleft { float: left } 
+.fright { float: right } 
+
+.container::after { 
+    content: '';
+    display: table;
+    clear: both;
+}
